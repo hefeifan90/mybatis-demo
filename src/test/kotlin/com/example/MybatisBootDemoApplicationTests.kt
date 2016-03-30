@@ -14,7 +14,8 @@ class MybatisBootDemoApplicationTests {
   @Test
   fun contextLoads() {
     assert(1 + 2 == 3);
-    assert(this is the first blood)
+    assert(this is the first blood);
+        assert(this is the second blood)
   }
 
 }
